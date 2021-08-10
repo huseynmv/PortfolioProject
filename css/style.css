@@ -615,6 +615,7 @@ body{
     .education-row {margin: 50px 0px;}
     .experience-row{margin: 50px 0px;}
     .text-logo h3{ display: none; }
+    .footer-social ul {padding: 0px;}
 }
 
 @media (max-width: 280px){
