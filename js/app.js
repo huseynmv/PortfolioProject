@@ -15,6 +15,24 @@ window.addEventListener('scroll', ()=>{
     copyright.classList.toggle('animation', window.scrollY>100)
 })
 
-// window.addEventListener('scroll', ()=>{
-//     heci.classList.toggle('animation1', window.scrollY>800)
+
+let hamburgerIcon = document.querySelector('.logo-symbol svg')
+let menu = document.querySelector('.hamburger')
+
+// hamburgerIcon.addEventListener('click', ()=>{
+//     menu.style.display='block'
 // })
+
+// hamburgerIcon.addEventListener('click,' (=>{
+//     menu.classList.toggle('open')
+// }))
+
+let menuStatus = true
+
+hamburgerIcon.addEventListener('click', ()=>{
+    if(menuStatus){
+        menu.style.display = 'block'
+        menuStatus=false
+    }else{menu.style.display = 'none'
+            menuStatus = true}
+})
