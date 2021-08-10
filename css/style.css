@@ -614,6 +614,7 @@ body{
     .navbar-menu { display: none; }
     .education-row {margin: 50px 0px;}
     .experience-row{margin: 50px 0px;}
+    .logo-text h3 { display: none; }
 }
 
 @media (max-width: 280px){
