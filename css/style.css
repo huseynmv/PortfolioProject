@@ -621,8 +621,12 @@ body{
     .experience-row{
         margin: 50px 0px;
     }
-    .navbar-menu ul li { margin-left: 5px; }
-    .body { max-width: 375px; }
+    /* .navbar-menu ul li { margin-left: 5px; } */
+    /* .body { max-width: 375px; } */
+
+    .footer-container{  justify-content: flex-end; }
+
+    .information h1 { font-size: 2rem; }
 }   
 
 @media (min-width: 1500px){
